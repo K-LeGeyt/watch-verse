@@ -1,29 +1,32 @@
-# Fullstack boilerplate
+# Watch-Verse
+**Final group project for Dev Academy Aotearoa - March 3rd, 2022**
+
+This project idea was born from the fist Covid lockdown in New Zealand where Disney+ was a new streaming service on the market 
+and to fill in the long evenings of being stuck in your home we decided to watch all of the Marvel Movies in the order of when they happened in time rather than their movie release date. 
+
+It was difficult to find this information out on the internet and this site provides a place to see the possible watch orders of different cinematic universes such as Marvel or Star Wars. 
 
 ## Getting Started
-
-### From the Github UI
-See the instructions [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) to use Github's feature to create a new repo from a template.
+You can watch the group presentaton for this app on [YouTube](https://youtu.be/4EuCRUJ7y9A?si=J867m4Kgpk5OBZOU)
 
 ### From the command line
 
 ```
-git clone https://github.com/dev-academy-challenges/boilerplate-fullstack [your-project-name]
-cd [your-project-name]
-npm install # to install dependencies
-npm run dev # to start the dev server
+npm install
+npm run build:server
+npm run knex seed:run
+npm run dev
 ```
 
 You can find the server running on [http://localhost:3000](http://localhost:3000).
 
 ## Details
 
-This repo includes:
+**Tech used:**
 
-* a single, simple API endpoint (`/api/v1/fruits`)
-* a single React component (`<App />`)
-* an example database module (`server/db/fruits.js`)
-* an API client module (`client/apis/fruits.js`)
-* configuration for Jest and testing library
-* configuration for server-side debugging in VS Code
-* a single client-side test (`client/components/App.test.js`)
+* HTML
+* CSS
+* JavaScript
+* React
+* Redux
+* Jest
